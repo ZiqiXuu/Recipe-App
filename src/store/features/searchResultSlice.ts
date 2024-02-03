@@ -88,7 +88,6 @@ const SearchResultSlice = createSlice({
                 console.log('Searching failed')
                 state.loading = false
                 state.error = action.payload as string
-                console.log(state.error)
             })
             .addCase(fetchMoreSearchResults.pending, (state, action) => {
                 state.loadingMore = true

@@ -33,7 +33,6 @@ const AutocompleteFilter: React.FC<Props> = (props) => {
     const handleSave = (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault()
         setAdvancedFilters(autocompleteValues)
-        console.log(autocompleteValues)
     }
 
     const handleClearAll = () => {
