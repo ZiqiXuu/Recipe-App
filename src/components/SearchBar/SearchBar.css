@@ -1,0 +1,30 @@
+.searchBar {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 10px;
+}
+
+.searchBar_icon {
+    color: gray;
+    margin-right: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.advancedSearch{
+    display: block;
+    justify-content: center;
+}
+
+.advancedSearch_filter {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+}
+
+.advancedSearch_filter.visible {
+    opacity: 1;
+    visibility: visible;
+    height: auto;
+}

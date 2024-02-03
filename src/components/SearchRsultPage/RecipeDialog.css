@@ -1,0 +1,18 @@
+.recipe{
+    min-width: 500px;
+}
+.recipeImg{
+    width: 40%;
+    margin: 5px auto;
+}
+.dialogActions{
+    margin:5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 500px) {
+    .recipe{
+        min-width: 90%;
+        margin: auto;
+    }
+}

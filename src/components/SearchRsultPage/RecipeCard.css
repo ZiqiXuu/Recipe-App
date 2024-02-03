@@ -1,0 +1,35 @@
+.singleRecipeContainer{
+    margin: 10px;
+    width: 500px;
+}
+
+.singleRecipe {
+    min-height: 350px;
+}
+
+.singleRecipe_details {
+    display: flex;
+    justify-content: center;
+}
+
+.singleRecipe_details_img{
+    height: 150px;
+    width: 150px;
+    margin: 16px 16px 5px;
+ }
+
+.singleRecipe_details_content{
+    padding: 0;
+    text-align: left;
+
+}
+
+@media screen and (max-width: 500px) {
+    .singleRecipeContainer {
+        width: 85%;
+        margin: auto;
+    }
+    .singleRecipe_details {
+        display: block;
+    }
+}

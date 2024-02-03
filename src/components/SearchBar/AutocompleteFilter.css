@@ -1,0 +1,21 @@
+.filter{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.filter_option{
+    width: 220px;
+}
+
+.submitBtnGroup{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.submitBtnGroup_Btn{
+    margin: 0 10px;
+}
